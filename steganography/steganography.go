@@ -3,12 +3,13 @@
 package steganography
 
 import (
-	"codemanic.com/util"
 	"image"
 	"image/color"
 	_ "image/jpeg"
 	"image/png"
 	"io"
+
+	"github.com/uwedeportivo/shared/util"
 )
 
 func EncodePNG(w io.Writer, payload []byte, m image.Image) error {
