@@ -4,7 +4,7 @@ package kindi
 
 import (
 	"bytes"
-	"codemanic.com/util"
+	"github.com/uwedeportivo/shared/util"
 	"crypto/rand"
 	"io"
 	"strings"
