@@ -7,20 +7,6 @@ import (
 	"testing"
 )
 
-func NeighborsEqual(a, b []Vertex) bool {
-	if len(a) != len(b) {
-		return false
-	}
-
-	for i, c := range a {
-		if c != b[i] {
-			return false
-		}
-	}
-	return true
-}
-
-
 func TestReadSnap(t *testing.T) {
 	file, err := os.Open("testdata/email-Enron.txt")
 	if err != nil {

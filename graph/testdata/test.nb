@@ -1,0 +1,247 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      9894,        237]
+NotebookOptionsPosition[      9591,        222]
+NotebookOutlinePosition[      9946,        238]
+CellTagsIndexPosition[      9903,        235]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"g", " ", "=", " ", 
+  RowBox[{"Import", "[", 
+   RowBox[{
+   "\"\</Users/uwe/go/src/github.com/uwedeportivo/shared/graph/testdata/test.\
+g6\>\"", ",", " ", 
+    RowBox[{"VertexLabels", " ", "\[Rule]", " ", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"i", " ", "\[Rule]", " ", 
+        RowBox[{"i", " ", "-", " ", "1"}]}], ",", " ", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", " ", "10"}], "}"}]}], "]"}]}], ",", " ", 
+    RowBox[{"ImagePadding", " ", "\[Rule]", " ", "10"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.5557888118271933`*^9, 3.555788831360376*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  GraphicsBox[
+   NamespaceBox["NetworkGraphics",
+    DynamicModuleBox[{Typeset`graph = HoldComplete[
+      Graph[{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {Null, 
+        SparseArray[
+        Automatic, {10, 10}, 0, {
+         1, {{0, 7, 11, 15, 16, 18, 20, 24, 26, 31, 34}, {{2}, {3}, {5}, {
+           7}, {8}, {9}, {10}, {1}, {3}, {9}, {10}, {1}, {2}, {6}, {7}, {9}, {
+           1}, {8}, {3}, {7}, {1}, {3}, {6}, {9}, {1}, {5}, {1}, {2}, {4}, {
+           7}, {10}, {1}, {2}, {9}}}, Pattern}]}, {
+       ImagePadding -> 10, 
+        VertexLabels -> {
+         10 -> 9, 3 -> 2, 6 -> 5, 9 -> 8, 4 -> 3, 2 -> 1, 8 -> 7, 7 -> 6, 5 -> 
+          4, 1 -> 0}}]], Typeset`boxes, Typeset`boxes$s2d = GraphicsGroupBox[{{
+        Directive[
+         Hue[0.6, 0.2, 0.8], 
+         EdgeForm[
+          Directive[
+           GrayLevel[0], 
+           Opacity[0.7]]]], 
+        TagBox[{
+          TagBox[
+           
+           DiskBox[{1.2282530025125915`, 0.7744485101475456}, 
+            0.03446663348617007], "DynamicName", BoxID -> "VertexID$1"], 
+          InsetBox[
+           FormBox["0", TraditionalForm], 
+           Offset[{2, 2}, 
+            DynamicLocation["VertexID$1", Automatic, {Right, Top}]], 
+           ImageScaled[{0, 0}], BaseStyle -> "Graphics"]}, "DynamicName", 
+         BoxID -> "VertexLabelID$1"], 
+        TagBox[{
+          TagBox[
+           
+           DiskBox[{1.8526914478610466`, 0.8076950880232983}, 
+            0.03446663348617007], "DynamicName", BoxID -> "VertexID$2"], 
+          InsetBox[
+           FormBox["1", TraditionalForm], 
+           Offset[{2, 2}, 
+            DynamicLocation["VertexID$2", Automatic, {Right, Top}]], 
+           ImageScaled[{0, 0}], BaseStyle -> "Graphics"]}, "DynamicName", 
+         BoxID -> "VertexLabelID$2"], 
+        TagBox[{
+          TagBox[
+           
+           DiskBox[{1.5420558031470737`, 1.7759622191906934`}, 
+            0.03446663348617007], "DynamicName", BoxID -> "VertexID$3"], 
+          InsetBox[
+           FormBox["2", TraditionalForm], 
+           Offset[{2, 2}, 
+            DynamicLocation["VertexID$3", Automatic, {Right, Top}]], 
+           ImageScaled[{0, 0}], BaseStyle -> "Graphics"]}, "DynamicName", 
+         BoxID -> "VertexLabelID$3"], 
+        TagBox[{
+          TagBox[
+           
+           DiskBox[{3.6110163786371654`, 0.006841809813251776}, 
+            0.03446663348617007], "DynamicName", BoxID -> "VertexID$4"], 
+          InsetBox[
+           FormBox["3", TraditionalForm], 
+           Offset[{2, 2}, 
+            DynamicLocation["VertexID$4", Automatic, {Right, Top}]], 
+           ImageScaled[{0, 0}], BaseStyle -> "Graphics"]}, "DynamicName", 
+         BoxID -> "VertexLabelID$4"], 
+        TagBox[{
+          TagBox[
+           
+           DiskBox[{0.1658497154876608, 0.14998187981905187`}, 
+            0.03446663348617007], "DynamicName", BoxID -> "VertexID$5"], 
+          InsetBox[
+           FormBox["4", TraditionalForm], 
+           Offset[{2, 2}, 
+            DynamicLocation["VertexID$5", Automatic, {Right, Top}]], 
+           ImageScaled[{0, 0}], BaseStyle -> "Graphics"]}, "DynamicName", 
+         BoxID -> "VertexLabelID$5"], 
+        TagBox[{
+          TagBox[
+           
+           DiskBox[{2.0410465430116593`, 2.593722496426227}, 
+            0.03446663348617007], "DynamicName", BoxID -> "VertexID$6"], 
+          InsetBox[
+           FormBox["5", TraditionalForm], 
+           Offset[{2, 2}, 
+            DynamicLocation["VertexID$6", Automatic, {Right, Top}]], 
+           ImageScaled[{0, 0}], BaseStyle -> "Graphics"]}, "DynamicName", 
+         BoxID -> "VertexLabelID$6"], 
+        TagBox[{
+          TagBox[
+           
+           DiskBox[{2.132927765907455, 1.5782596714646182`}, 
+            0.03446663348617007], "DynamicName", BoxID -> "VertexID$7"], 
+          InsetBox[
+           FormBox["6", TraditionalForm], 
+           Offset[{2, 2}, 
+            DynamicLocation["VertexID$7", Automatic, {Right, Top}]], 
+           ImageScaled[{0, 0}], BaseStyle -> "Graphics"]}, "DynamicName", 
+         BoxID -> "VertexLabelID$7"], 
+        TagBox[{
+          TagBox[
+           DiskBox[{0., 0.786905541912516}, 0.03446663348617007], 
+           "DynamicName", BoxID -> "VertexID$8"], 
+          InsetBox[
+           FormBox["7", TraditionalForm], 
+           Offset[{2, 2}, 
+            DynamicLocation["VertexID$8", Automatic, {Right, Top}]], 
+           ImageScaled[{0, 0}], BaseStyle -> "Graphics"]}, "DynamicName", 
+         BoxID -> "VertexLabelID$8"], 
+        TagBox[{
+          TagBox[
+           
+           DiskBox[{2.4837187983546283`, 0.5273070256909194}, 
+            0.03446663348617007], "DynamicName", BoxID -> "VertexID$9"], 
+          InsetBox[
+           FormBox["8", TraditionalForm], 
+           Offset[{2, 2}, 
+            DynamicLocation["VertexID$9", Automatic, {Right, Top}]], 
+           ImageScaled[{0, 0}], BaseStyle -> "Graphics"]}, "DynamicName", 
+         BoxID -> "VertexLabelID$9"], 
+        TagBox[{
+          TagBox[
+           DiskBox[{1.835603941251842, 0.}, 0.03446663348617007], 
+           "DynamicName", BoxID -> "VertexID$10"], 
+          InsetBox[
+           FormBox["9", TraditionalForm], 
+           Offset[{2, 2}, 
+            DynamicLocation["VertexID$10", Automatic, {Right, Top}]], 
+           ImageScaled[{0, 0}], BaseStyle -> "Graphics"]}, "DynamicName", 
+         BoxID -> "VertexLabelID$10"]}, {
+        Directive[
+         Opacity[0.7], 
+         Hue[0.6, 0.7, 0.5]], 
+        LineBox[{{
+           DynamicLocation["VertexID$1", Automatic, Center], 
+           DynamicLocation["VertexID$2", Automatic, Center]}, {
+           DynamicLocation["VertexID$1", Automatic, Center], 
+           DynamicLocation["VertexID$3", Automatic, Center]}, {
+           DynamicLocation["VertexID$1", Automatic, Center], 
+           DynamicLocation["VertexID$5", Automatic, Center]}, {
+           DynamicLocation["VertexID$1", Automatic, Center], 
+           DynamicLocation["VertexID$7", Automatic, Center]}, {
+           DynamicLocation["VertexID$1", Automatic, Center], 
+           DynamicLocation["VertexID$8", Automatic, Center]}, {
+           DynamicLocation["VertexID$1", Automatic, Center], 
+           DynamicLocation["VertexID$9", Automatic, Center]}, {
+           DynamicLocation["VertexID$1", Automatic, Center], 
+           DynamicLocation["VertexID$10", Automatic, Center]}, {
+           DynamicLocation["VertexID$2", Automatic, Center], 
+           DynamicLocation["VertexID$3", Automatic, Center]}, {
+           DynamicLocation["VertexID$2", Automatic, Center], 
+           DynamicLocation["VertexID$9", Automatic, Center]}, {
+           DynamicLocation["VertexID$2", Automatic, Center], 
+           DynamicLocation["VertexID$10", Automatic, Center]}, {
+           DynamicLocation["VertexID$3", Automatic, Center], 
+           DynamicLocation["VertexID$6", Automatic, Center]}, {
+           DynamicLocation["VertexID$3", Automatic, Center], 
+           DynamicLocation["VertexID$7", Automatic, Center]}, {
+           DynamicLocation["VertexID$4", Automatic, Center], 
+           DynamicLocation["VertexID$9", Automatic, Center]}, {
+           DynamicLocation["VertexID$5", Automatic, Center], 
+           DynamicLocation["VertexID$8", Automatic, Center]}, {
+           DynamicLocation["VertexID$6", Automatic, Center], 
+           DynamicLocation["VertexID$7", Automatic, Center]}, {
+           DynamicLocation["VertexID$7", Automatic, Center], 
+           DynamicLocation["VertexID$9", Automatic, Center]}, {
+           DynamicLocation["VertexID$9", Automatic, Center], 
+           DynamicLocation["VertexID$10", Automatic, Center]}}]}}], 
+     Typeset`data}, 
+     TagBox[
+      DynamicBox[GraphComputation`NetworkGraphicsBox[
+       2, Typeset`graph, Typeset`boxes], {
+       CachedValue :> Typeset`boxes, SingleEvaluation -> True, 
+        SynchronousUpdating -> False, TrackedSymbols :> {}},
+       ImageSizeCache->{{19.360000000000007`, 
+        524.9829405350163}, {-195.39734053501647`, 178.7563543679536}}],
+      MouseAppearanceTag["NetworkGraphics"]],
+     AllowKernelInitialization->False,
+     UnsavedVariables:>{Typeset`data}]],
+   DefaultBaseStyle->{
+    "NetworkGraphics", FrontEnd`GraphicsHighlightColor -> Hue[0.8, 1., 0.6]},
+   FrameTicks->None,
+   ImagePadding->10,
+   ImageSize->{538., Automatic}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.555788841894985*^9, 3.555788841909087*^9}}]
+},
+WindowSize->{740, 867},
+WindowMargins->{{28, Automatic}, {Automatic, 64}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (October 5, \
+2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 606, 14, 43, "Input"],
+Cell[1166, 36, 8421, 184, 443, InheritFromParent]
+}
+]
+*)
+
+(* End of internal cache information *)
+
