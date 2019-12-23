@@ -3,13 +3,12 @@
 package graph
 
 import (
-	"io"
-	"io/ioutil"
 	"errors"
 	"fmt"
+	"io"
+	"io/ioutil"
+	"math"
 	"strings"
-
-	"code.google.com/p/go-bit/bit"
 )
 
 const g6Prefix = ">>graph6<<"
@@ -45,7 +44,7 @@ func ReadGraph6(r io.Reader) (Graph, error) {
 		return nil, errors.New("no content")
 	}
 
-	if n > uint64(bit.MaxInt) {
+	if n > uint64(math.MaxUint32) {
 		return nil, fmt.Errorf("too many vertices %d", n)
 	}
 
